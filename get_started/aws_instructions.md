@@ -25,11 +25,5 @@
 
 # ONCE ON THE INSTANCE:
 
-# SSH command line to get started
-- Use the following commands, copy and paste as needed:  
-mkdir code; cd code
-
-- Make sure an SSH key is setup with Github on this instance, then:
-git clone git@github.com:hughharford/atp.git
-
-ssh -T git@github.com
+# SSH command line-only (no GUI)
+- Use the following commands:  
