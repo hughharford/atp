@@ -9,4 +9,12 @@ Objectives:
 - Branch understanding or success is brought across to master
 - Git branch 'master' still reads as the best, and most current view
 
+### This approach seems to be effective, still early days
+Notes:
+- Findable notes, provided online or appropriate branch locally for offline
+- Use these two to merge branch back in. 
+- - git checkout master
+- - git merge <branch_name>  
+- Aim to work in separate files to prevent conflicts
+
 
