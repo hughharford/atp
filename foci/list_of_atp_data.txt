@@ -1,0 +1,12 @@
+# ATP freely provides, for individual players:
+- Aces
+- 1st Serve (what is this, precisely)
+- 1st Serve points won
+- 2nd Serve
+- 2nd Serve points won
+- Service Games won
+- Break Points saved
+- 1st Serve Return Points won
+- 2nd Serve Return Points won
+- Break Points Converted
+- Return Games won
