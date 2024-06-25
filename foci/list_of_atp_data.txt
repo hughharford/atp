@@ -1,12 +1,12 @@
-# ATP freely provides, for individual players:
-- Aces
-- 1st Serve (what is this, precisely)
-- 1st Serve points won
-- 2nd Serve
-- 2nd Serve points won
-- Service Games won
-- Break Points saved
-- 1st Serve Return Points won
-- 2nd Serve Return Points won
-- Break Points Converted
-- Return Games won
+# NOTED DOWN FROM ATP SITE 24 06 25 (need to understand if % or float etc) => columns in existing data
+# - Aces => aces
+# - 1st Serve => first_serve_made
+# - 1st Serve points won => first_serve_points_made
+# - 2nd Serve => second_serve_points_made
+# - 2nd Serve points won => second_serve_points_made
+# - Service Games won => service_games_won
+# - Break Points saved => break_points_saved
+# - 1st Serve Return Points won => first_serve_return_points_made
+# - 2nd Serve Return Points won => second_serve_return_points_made
+# - Break Points Converted => break_points_made
+# - Return Games won => ???
