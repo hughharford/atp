@@ -18,3 +18,9 @@ Notes:
 - Aim to work in separate files to prevent conflicts
 
 
+### Very happy with this approach
+Notes:
+- Working on more than 1 thing at once is a bit more complex
+- Researching data efforts, when that should be on a different branch incurs overhead
+- - Requires 'git stash' on one branch, go across, flip back and then 'git stash apply'
+
