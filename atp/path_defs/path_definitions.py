@@ -16,7 +16,8 @@ class ATP_paths():
         assert os.path.exists(self.matches_data_path_full)
 
     def get_read_data_path(self):
-        return self.atp_data_path
+        '''defaults to: raw_data/read_data/'''
+        return self.read_data_path
     
     def get_matches_data_path_full(self):
         return self.matches_data_path_full

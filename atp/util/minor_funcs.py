@@ -6,13 +6,14 @@ class Minors():
     
     def __init__(self):
         self.paths = ATP_paths()
-        raw_data_path = self.paths.get_read_data_path()
+        self.read_data_path = self.paths.get_read_data_path()
 
     def get_count_csvs(self, alt_path = None):
+        '''defaults to: raw_data/read_data/'''
         if alt_path:
             path = alt_path
         else:
-            path = self.paths.get_read_data_path()
+            path = self.read_data_path
         csv_files = []
         file_list = os.listdir(path)
         for i in file_list:
