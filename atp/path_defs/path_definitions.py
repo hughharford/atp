@@ -11,9 +11,17 @@ class ATP_paths():
         self.read_data_path = os.path.join('../..','raw_data','read_data')
         assert os.path.exists(self.read_data_path) 
 
+        # set read_data path for chunking later on:
+        self.cleaned_once_data_path = os.path.join('../..','raw_data','cleaned_once')
+        assert os.path.exists(self.read_data_path) 
+
         # check initial data file expected are extant:
         self.matches_data_path_full = os.path.join(self.atp_data_path, 'all_matches.csv')
         assert os.path.exists(self.matches_data_path_full)
+
+    def get_cleaned_once_data_path(self):
+        '''defaults to: raw_data/cleaned_once_data/'''
+        return self.cleaned_once_data_path
 
     def get_read_data_path(self):
         '''defaults to: raw_data/read_data/'''
